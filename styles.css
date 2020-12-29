@@ -31,11 +31,11 @@
 }
 
 #navbar__logo {
-    background: #24C6DC;  /* fallback for old browsers */
+    /* background: #24C6DC; 
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
     color: #24C6DC;
     display: flex;
     align-items: center;    
