@@ -1087,10 +1087,6 @@
     width: 240px;
 }
 
-.website__rights {
-    color: #fff;
-}
-
 @media screen and (max-width: 820px) {
     .footer__links {
         padding-top: 2rem;
