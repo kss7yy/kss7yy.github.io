@@ -757,6 +757,10 @@
         height: 520px;
         width: 350px;
     }
+
+    .media__card {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -767,7 +771,7 @@
     .education__card1, .education__card2 {
         margin: 15px;
         height: 625px;
-        width: 300px;
+        width: 325px;
         border-radius: 12px;
     }
 
@@ -785,7 +789,7 @@
     }
 
     .education__card1 ul, .education__card1 li, .education__card2 ul, .education__card2 li {
-        max-width: 225px;
+        max-width: 260px;
     }
 
     .skills__card, .courses__card, .media__card{
