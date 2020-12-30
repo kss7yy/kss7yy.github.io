@@ -687,9 +687,11 @@
         padding: 3rem 0;
         background-size: cover;
     }
+
     .education h1 {
         font-size: 3rem;
     }
+
     .education__card1, .education__card2 {
         margin: 15px;
         height: 450px;
@@ -744,14 +746,30 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    .education__card1, .education__card2 {
+        margin: 15px;
+        height: 450px;
+        width: 350px;
+    }
+
+    .skills__card, .courses__card, .media__card{
+        margin: 15px;
+        height: 500px;
+        width: 350px;
+        border-radius: 15px;
+    }
+}
+
 @media screen and (max-width: 400px) {
     .education h1 {
         font-size: 2.5rem;
     }
+
     .education__card1, .education__card2 {
         margin: 15px;
         height: 625px;
-        width: 275px;
+        width: 300px;
         border-radius: 12px;
     }
 
@@ -775,7 +793,7 @@
     .skills__card, .courses__card, .media__card{
         margin: 15px;
         height: 625px;
-        width: 275px;
+        width: 300px;
         border-radius: 15px;
     }
     
