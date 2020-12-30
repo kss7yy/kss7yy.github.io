@@ -750,7 +750,7 @@
     }
     .education__card1, .education__card2 {
         margin: 15px;
-        height: 535px;
+        height: 600px;
         width: 275px;
         border-radius: 12px;
     }
@@ -770,7 +770,7 @@
 
     .skills__card, .courses__card, .media__card{
         margin: 15px;
-        height: 550px;
+        height: 625px;
         width: 275px;
         border-radius: 15px;
     }
