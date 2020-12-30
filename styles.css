@@ -754,10 +754,8 @@
     }
 
     .skills__card, .courses__card, .media__card{
-        margin: 15px;
-        height: 500px;
+        height: 520px;
         width: 350px;
-        border-radius: 15px;
     }
 }
 
