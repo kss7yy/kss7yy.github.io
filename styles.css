@@ -798,6 +798,10 @@
         width: 300px;
         border-radius: 15px;
     }
+
+    .courses__card {
+        height: 575px;
+    }
     
     .skills__card ul, .courses__card ul {
         max-width: 250px;
