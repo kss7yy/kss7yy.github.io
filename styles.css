@@ -490,7 +490,7 @@
     #main-cont-2 {
         text-align: center;
         padding: 1rem 1rem;
-        margin: none;
+        margin-bottom: 2rem;
     }
 
     .main__content h1, #main-cont-2 h1 {
@@ -792,7 +792,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 330px) {
     .education__card1, .education__card2 {
         width: 300px;
     }
