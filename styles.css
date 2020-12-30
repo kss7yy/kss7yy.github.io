@@ -751,7 +751,7 @@
     .education__card1, .education__card2 {
         margin: 15px;
         height: 625px;
-        width: 300px;
+        width: 350px;
         border-radius: 12px;
     }
 
@@ -789,6 +789,12 @@
     
     .media__icon--link {
         font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .education__card1, .education__card2 {
+        width: 300px;
     }
 }
 
