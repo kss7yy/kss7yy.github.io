@@ -490,7 +490,7 @@
     #main-cont-2 {
         text-align: center;
         padding: 1rem 1rem;
-        margin-bottom: 2rem;
+        margin: none;
     }
 
     .main__content h1, #main-cont-2 h1 {
@@ -725,7 +725,7 @@
 
     .skills__card, .courses__card, .media__card{
         margin: 15px;
-        height: 420px;
+        height: 440px;
         width: 350px;
         border-radius: 15px;
     }
