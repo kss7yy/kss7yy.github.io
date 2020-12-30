@@ -635,7 +635,7 @@
 .skills__card, .courses__card, .media__card{
     margin: 15px;
     height: 300px;
-    width: 650px;
+    width: 660px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
