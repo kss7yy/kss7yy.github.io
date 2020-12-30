@@ -751,12 +751,12 @@
     .education__card1, .education__card2 {
         margin: 15px;
         height: 625px;
-        width: 275px;
+        width: 300px;
         border-radius: 12px;
     }
 
     .education__card2 {
-        height: 550px;
+        height: 525px;
     }
 
     .education__card1 h2, .education__card2 h2{
