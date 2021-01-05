@@ -4,8 +4,11 @@
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Kunaal Sarnaik</title> 
-       <link rel="stylesheet" href="styles.css">
+       <link rel="stylesheet" href="css/styles.css">
+       <link rel="stylesheet" href="css/bootstrap.min.css">
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+       <script src="js/jquery-3.5.1.min.js"></script>
+       <script src="js/bootstrap.min.js"></script>
     </head>
     <body>
         <!-- Navbar Section -->
@@ -444,10 +447,24 @@
                                 <li>After assembling tubing, 3D printing a peristaltic pump, and programming the microcontroller, the pump was effectively
                                     able to move water with and against gravity, closely resembling those utilized in the clinical setting.</li>
                             </ul>
-                            <div class="exp__video">
-                                <video controls>
-                                    <source src="vid/IV_Infusion_Pump.mp4" type="video/mp4">
-                                </video>
+                            <div class="exp__button">
+                                <a class="exp__link" href="#myModal" data-toggle="modal"><strong>LINK TO VIDEO</strong></a>
+
+                                <div id="myModal" class="modal fade">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h6 class="modal-title">The Infusion Pump</h6>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+                                            <div class="modal-body">
+                                              <div class="embed-responsive embed-responsive-4by3">
+                                                <iframe id="cartoonVideo" class="embed-responsive-item" width="500" height="1000" src="vid/IV_Infusion_Pump.mp4" allowfullscreen></iframe>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="exp__date">
@@ -632,6 +649,6 @@
                 </div>
             </section>
         </div>
-        <script src="app.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>
