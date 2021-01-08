@@ -35,7 +35,7 @@ const highlightMenu = () => {
         aboutMenu.classList.remove('highlight');
         experiencesMenu.classList.remove('highlight');
         return;
-    } else if (window.innerWidth > 960 && scrollPos < 9800) {
+    } else if (window.innerWidth > 960 && scrollPos < 10200) {
         experiencesMenu.classList.add('highlight');
         educationMenu.classList.remove('highlight');
         return;
