@@ -1000,6 +1000,13 @@
     height: 500px;
 }
 
+@media screen and (max-width: 1100px) {
+    .expsub__card {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .exp__subsection__cards1{
         margin-top: 2rem;
