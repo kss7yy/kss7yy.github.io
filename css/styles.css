@@ -377,8 +377,6 @@
 .main__btn {
     font-size: 1.8rem;
     background: cyan;  
-    /* background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  
-    background: linear-gradient(to right, #182848, #4b6cb7);  */
     padding: 20px 60px;
     border: none;
     border-radius: 4px;    
@@ -1259,4 +1257,150 @@
         padding: 10px;
         width: 100%;
     }
+}
+
+/* Email Form Styling */
+.email {
+    background-image: url("../img/snow_rotunda.JPG");
+    background-size: cover;
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__container {
+    width: 45%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: black; 
+    border: 10px solid #7700ff;
+    border-radius: 10px;
+    margin: 2rem;
+}
+
+.form__container h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #24C6DC;  /* fallback for old browsers */
+    text-align: center;
+}
+
+.form__container p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 5;
+    color: white;
+}
+
+.form__container h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #24C6DC;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.actual_form_container {
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 90%;
+}
+
+.full_name, .email_input, .message_div {
+    display: flex;
+    justify-content: center;
+}
+
+.first_name, .last_name{
+    width: 50%;
+    height: 2rem;
+    border: 2px solid #7700ff;
+    border-radius: 10px;
+    margin: 0 1rem;
+    padding-left: 5px;
+    color: black;
+    background: rgba(255, 255, 255);
+    transition: 0.35s all;
+}
+
+.mail {
+    width: 60%;
+    height: 2rem;
+    border: 2px solid #7700ff;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 5px;
+    color: black;
+    background: rgba(255, 255, 255);
+    transition: 0.35s all;
+}
+
+.message {
+    width: 100%;
+    height: 5rem;
+    border: 2px solid #7700ff;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    padding: 5px;
+    color: black;
+    background: rgba(255, 255, 255);
+    resize: vertical;
+    min-height: 2rem;
+    max-height: 10rem;
+}
+
+.first_name:focus, .last_name:focus, .mail:focus, .message:focus{
+    transform: scale(1.025);
+    background-color: lightcyan;
+    outline: none;
+    border: 4px solid #7700ff;
+}
+
+.first_name:hover, .last_name:hover, .mail:hover, .message:hover {
+    transform: scale(1.025);
+}
+
+.email_submit {
+    display: flex;
+    justify-content: center;
+}
+
+.email__btn {
+    font-size: 1.2rem;
+    font: bold;
+    background: cyan;
+    padding: 5px 50px;
+    margin-top: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    color: black;
+    z-index: 50;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.email__btn:hover {
+    transform: scale(1.1);
+    background: #7700ff;
+    color: white;
 }
