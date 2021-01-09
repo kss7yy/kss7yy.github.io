@@ -94,6 +94,7 @@
 
 .button:hover {
     color: #131313;
+    transform: scale(1.1);
 }
 
 .navbar__links:hover {
@@ -393,7 +394,9 @@
 }
 
 .main__btn:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
+    background: #7700ff;
+    color: white;
 }
 
 .main__img--container {
@@ -668,12 +671,12 @@
 .media__icon--link {
     color: black;
     font-size: 120px;
+    transition: 0.2s ease-in-out;
 }
 
 .media__icon--link:hover {
     color: blueviolet;
-    transition: 0.2s ease-in;
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 @media screen and (max-width: 1300px) {
@@ -986,8 +989,9 @@
 }
 
 .exp__link:hover {
-    color: #fff;
-    transform: scale(1.15);
+    background: cyan;
+    color: black;
+    transform: scale(1.1);
 }
 
 .exp__video {
