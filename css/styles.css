@@ -1429,6 +1429,12 @@
     color: white;
 }
 
+.recaptcha__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 770px) {
     .email__container {
         display: grid;
