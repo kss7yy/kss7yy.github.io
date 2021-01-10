@@ -39,37 +39,39 @@
 
         <!-- Email Me Form -->
         <div class="email">
-            <div class="main__img--container">
-                <div class="main__img--card2" id="img-card-2"></div>
-            </div>
-            <div class="form__container">
-                <h3>Email Me!</h3>
-                <p>If you have any questions for me, feel free to contact me by clicking
-                    that button below! I would love to discuss anything having to do with
-                    healthcare, research projects, data science, computer science, investing,
-                    sports, or any other interests you may have.<br><br>
-                    
-                    I am typically responsive to emails, but feel free to send as many follow-ups 
-                    as you need to if I haven't responded in a while. I look forward to connecting with you!
-                </p><br>
-                <hr>
-                <h4>Form:</h4>
-                <div class="actual_form_container">
-                    <form class="contact__form" action="">
-                        <div class="full_name">
-                            <input type="text" class="first_name" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'">
-                            <input type="text" class="last_name" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"> 
-                        </div> 
-                        <div class="email_input">
-                            <input type="text" class="mail" name="mail" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
-                        </div>
-                        <div class="message_div">
-                            <textarea class="message" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"></textarea>
-                        </div>
-                        <div class="email_submit">
-                            <button class="email__btn" type="submit" name="submit">SEND</button>
-                        </div>
-                    </form>
+            <div class="email__container">
+                <div class="main__img--container">
+                    <div class="main__img--card2" id="img-card-3"></div>
+                </div>
+                <div class="form__container">
+                    <h3>Email Me!</h3>
+                    <p>If you have any questions for me, feel free to contact me by clicking
+                        that button below! I would love to discuss anything having to do with
+                        healthcare, research projects, data science, computer science, investing,
+                        sports, or any other interests you may have.<br><br>
+                        
+                        I am typically responsive to emails, but feel free to send as many follow-ups 
+                        as you need to if I haven't responded in a while. I look forward to connecting with you!
+                    </p><br>
+                    <hr>
+                    <h4>Form:</h4>
+                    <div class="actual_form_container">
+                        <form class="contact__form" method="POST" data-netlify="true">
+                            <div class="full_name">
+                                <input type="text" class="first_name" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'">
+                                <input type="text" class="last_name" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"> 
+                            </div> 
+                            <div class="email_input">
+                                <input type="text" class="mail" name="mail" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'">
+                            </div>
+                            <div class="message_div">
+                                <textarea class="message" name="message" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"></textarea>
+                            </div>
+                            <div class="email_submit">
+                                <button class="email__btn" type="submit" name="submit">SEND</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
