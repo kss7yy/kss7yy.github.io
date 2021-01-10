@@ -56,7 +56,7 @@
                     <hr>
                     <h4>Form:</h4>
                     <div class="actual_form_container">
-                        <form class="contact__form" name="contact" method="POST" data-netlify="true">
+                        <form class="contact__form" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                             <div class="full_name">
                                 <input type="text" class="first_name" name="first_name" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'">
                                 <input type="text" class="last_name" name="last_name" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'"> 
@@ -70,6 +70,7 @@
                             <div class="email_submit">
                                 <button class="email__btn" type="submit" name="submit">SEND</button>
                             </div>
+                            <div data-netlify-recaptcha="true"></div>
                         </form>
                     </div>
                 </div>
