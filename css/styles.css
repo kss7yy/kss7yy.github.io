@@ -678,6 +678,10 @@
 }
 
 @media screen and (max-width: 1300px) {
+    .education {
+        background-size: cover;
+    }
+    
     .education__wrapper {
         grid-template-columns: 1fr;
     }
