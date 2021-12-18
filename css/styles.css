@@ -559,7 +559,7 @@
 
 .education__card0 {
     margin: 15px;
-    height: 250px;
+    height: 190px;
     width: 600px;
     border-radius: 4px;
     display: flex;
@@ -606,7 +606,7 @@
 
 .education__card1, .education__card2 {
     margin: 15px;
-    height: 470px;
+    height: 420px;
     width: 600px;
     border-radius: 4px;
     display: flex;
@@ -617,7 +617,7 @@
 }
 
 .education__card1 {
-    color: #131313;
+    color: #ffffff;
 }
 
 .education__card2 {
@@ -625,7 +625,7 @@
 }
 
 .education__card1 {
-    background: rgb(255, 181, 43);  
+    background: #aa5e00;  
     /* background: -webkit-linear-gradient(to right, #ED8F03, #FFB75E);
     background: linear-gradient(to right, #ED8F03, #FFB75E); */
 }
@@ -751,16 +751,16 @@
         border-radius: 12px;
     }
 
-    .education__card1 h2, .education__card2 h2{
+    .education__card0 h2, .education__card1 h2, .education__card2 h2{
         font-size: 1.5rem;
     }
     
-    .education__card1 p, .education__card2 p {
+    .education__card0 p, .education__card1 p, .education__card2 p {
         text-align: center;
         font-size: 15px;
     }
 
-    .education__card1 ul, .education__card1 li, .education__card2 ul, .education__card2 li {
+    .education__card0 ul, .education__card0 li, .education__card1 ul, .education__card1 li, .education__card2 ul, .education__card2 li {
         max-width: 315px;
         font-size: 14px;
     }
@@ -799,6 +799,12 @@
 }
 
 @media screen and (max-width: 430px) {
+    .education__card0 {
+        margin: 15px;
+        height: 220px;
+        width: 335px;
+    }
+    
     .education__card1, .education__card2 {
         margin: 15px;
         height: 450px;
@@ -820,6 +826,13 @@
         font-size: 2.5rem;
     }
 
+    .education__card0 {
+        margin: 15px;
+        height: 250px;
+        width: 335px;
+        border-radius: 12px;
+    }
+
     .education__card1, .education__card2 {
         margin: 15px;
         height: 510px;
@@ -831,16 +844,16 @@
         height: 500px;
     }
 
-    .education__card1 h2, .education__card2 h2{
+    .education__card0 h2, .education__card1 h2, .education__card2 h2{
         font-size: 1.5rem;
     }
     
-    .education__card1 p, .education__card2 p {
+    .education__card0 p, .education__card1 p, .education__card2 p {
         text-align: center;
         font-size: 15px;
     }
 
-    .education__card1 ul, .education__card1 li, .education__card2 ul, .education__card2 li {
+    .education__card0 ul, .education__card0 li, .education__card1 ul, .education__card1 li, .education__card2 ul, .education__card2 li {
         max-width: 280px;
     }
 
@@ -869,7 +882,7 @@
 }
 
 @media screen and (max-width: 330px) {
-    .education__card1, .education__card2 {
+    .education__card0 , .education__card1, .education__card2 {
         width: 300px;
     }
 }
